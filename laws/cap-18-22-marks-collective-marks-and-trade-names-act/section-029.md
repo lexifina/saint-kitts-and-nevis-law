@@ -1,0 +1,5 @@
+29.
+Registrar’s annual report.
+The Registrar shall, before 1st June every year, make an annual report to the
+Minister regarding the operation of this Act and the discharge of his or her functions under
+this Act.

@@ -1,0 +1,9 @@
+26.
+Jurisdiction of court.
+(1)
+The court shall have jurisdiction in cases of disputes relating to the
+application of this Act and the Regulations made under this Act and in matters which,
+under this Act, may be brought before it.
+(2)
+Any person who is aggrieved by a decision of the Registrar under this Act
+may, within two months of that decision, appeal to the court.
