@@ -1,0 +1,13 @@
+43.
+Certificate of contested validity of patent.
+(1)
+Where in any proceedings before the Court the validity of a patent to any
+extent is contested and that patent is found by the Court to be wholly or partially valid, the
+Court may certify the finding and the fact that the validity of the patent was so contested.
+(2)
+Where a certificate is granted under this section, then, if in any subsequent
+proceedings before the Court for infringement of the patent concerned or for revocation of
+the patent a final order or judgment is made or given in favour of the party relying on the
+validity of the patent as found in the earlier proceedings, that party shall, unless the Court
+otherwise directs, be entitled to his  or her costs or expenses as between attorney-at-law
+and client, other than the costs of expenses of any appeal in the subsequent proceedings.

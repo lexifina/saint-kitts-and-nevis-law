@@ -1,0 +1,5 @@
+53.
+Notification as to convention countries.
+The provisions of any international treaty in respect of industrial property to which
+Saint Christopher and Nevis is a party shall apply to matters dealt with by this Act and, in
+case of conflict with the provisions of this Act, shall prevail over the latter.

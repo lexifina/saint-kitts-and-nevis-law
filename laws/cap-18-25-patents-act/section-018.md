@@ -1,0 +1,5 @@
+18.
+Amendment of application.
+The applicant may, at any time before a patent is granted, amend the application,
+but the amendment shall not include any matter which was not disclosed in the initial
+application as filed.
