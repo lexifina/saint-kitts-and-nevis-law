@@ -1,0 +1,2 @@
+# Paragraph 1
+1. Until such time as a person has assumed office as Governor-General having been appointed as such in accordance with section 21 of the Constitution, the person who immediately before 19th September 1983 held office as Governor of Saint Christopher and Nevis (or, if there is no such person, the person who was then acting as Governor) shall discharge the functions of the office of Governor-General.

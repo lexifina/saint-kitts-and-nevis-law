@@ -1,0 +1,2 @@
+# Paragraph 9
+9. Nothing contained in or done under the authority of any law shall be held to be inconsistent with or in contravention of section 7 of the Constitution to the extent that the law in question authorises the infliction of any description of punishment that was lawful immediately before 27th February 1967 (being the date on which Saint Christopher, Nevis and Anguilla became an associated state).

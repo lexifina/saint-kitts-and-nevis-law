@@ -1,0 +1,3 @@
+# Paragraph 13
+13.—(1) In this schedule— "the Constitution" means the Constitution set out in schedule to this Order; "the Council for Nevis" means the Council established for the island of Nevis by section 109(1) of the former Constitution; "the former Constitution" means the Constitution of Saint Christopher and Nevis as in force immediately before 19th September 1983.
+(2) The provisions of section 119 of the Constitution shall apply for the purposes of interpreting this schedule and otherwise in relation thereto as they apply for the purposes of interpreting and in relation to the Constitution.
