@@ -1,0 +1,5 @@
+8.
+Rewards to informers.
+The Minister may direct that any part of any fine recovered in respect of any offence
+against this Act shall be paid to any person who has given information leading to the
+conviction of the offender.
