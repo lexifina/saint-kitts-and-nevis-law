@@ -1,0 +1,16 @@
+106.  Licences to reflect payment in respect of underlying rights.
+(1)
+In considering what charges are to be paid for a licence on a reference or
+application under this Part relating to licences for the rental to the public of copies of
+sound recordings, films, or computer programmes, the High Court shall take into account
+any reasonable payments which the owner of the copyright in the sound recording, film or
+computer programme is liable to make in consequence of the granting of the licence, or of
+the acts authorised by the licence, to owners of copyright in works included in that work.
+(2)
+On any reference or application under this Part relating to licensing in
+respect of the copyright in sound recordings, films, broadcasts or cable programmes, the
+
+High Court shall take into account, in considering what charges should be paid for a
+licence, any reasonable payments which the copyright owner is liable to make in
+consequence of the granting of the licence, or of the acts authorised by the licence, in
+respect of any performance included in the recording, film, broadcast or cable program.

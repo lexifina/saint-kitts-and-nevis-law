@@ -1,0 +1,6 @@
+85.
+Adaptations.
+An act which by virtue of this Part may be done without infringing copyright in a
+literary, dramatic or musical work shall not, where that work is an adaptation, infringe any
+copyright in the work from which the adaptation was made.
+Prescribed Exceptions

@@ -1,0 +1,15 @@
+54.
+Determining fair dealing.
+For the purpose of determining whether an act done in relation to a work constitutes
+fair dealing, the court determining the question shall take into account all factors which
+appear to it to be relevant, including
+(a)
+the nature of the work in question;
+(b)
+the extent and substantiality of that part of the work affected by the
+act in relation to the whole of the work;
+(c)
+the purpose and character of the use; and
+(d)
+the effect of the act upon the potential market for, or the commercial
+value of, the work.

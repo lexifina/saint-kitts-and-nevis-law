@@ -1,0 +1,23 @@
+19.
+Consent and waiver of rights.
+(1)
+A person having a right conferred under this Part may consent to the doing
+of any act affecting such right or may waive the right.
+
+(2)
+A right to which subsection (1) of this section refers may be waived by
+instrument in writing signed by the person giving up the right, and the waiver
+(a)
+may relate to works generally or to a specific work or class of works
+and may relate to existing or future works; and
+(b)
+may be conditional or unconditional and may be expressed to be
+subject to revocation.
+(3)
+Where a waiver is made in favour of the owner or prospective owner of the
+copyright in the work or works, to which it relates, it shall be presumed to extend to his or
+her licensees and successors in title, unless a contrary intention is expressed.
+(4)
+Nothing in this Part shall be construed as excluding the operation of the
+general law of contract or estoppel in relation to an informal waiver or other transaction in
+relation to any of the rights to which this Part relates.

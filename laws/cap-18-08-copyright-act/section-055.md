@@ -1,0 +1,15 @@
+55.
+Incidental inclusion of protected work.
+Copyright in a work shall not be infringed
+(a)
+by its incidental inclusion in an artistic work, sound recording film,
+broadcast or cable programme; or
+(b)
+by the issue to the public of copies of the playing, showing,
+broadcasting or inclusion in a cable programme service of anything
+whose making was not an infringement of copyright by virtue of
+paragraph (a) of this section;
+and for the purposes of this section, a musical work, words spoken or sung with music, or
+so much of a sound recording, broadcast or cable programme as includes a musical work
+or such words, shall not be regarded as incidentally included if it is deliberately included.
+Use of Work for Educational Purposes

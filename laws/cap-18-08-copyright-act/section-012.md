@@ -1,0 +1,16 @@
+12.
+Duration of copyright in broadcasts and cable programmes.
+(1)
+Copyright in a broadcast or cable programme shall expire at the end of a
+period of fifty years from the end of the calendar year in which the broadcast was made or
+the programme was included in a cable programme service.
+(2)
+Copyright in a repeat broadcast or a repeat cable programme shall expire at
+the same time as copyright in the original broadcast or cable programme, and accordingly,
+no copyright shall arise in respect of a repeat broadcast or a repeat cable programme which
+is broadcast or, as the case may be, included in a cable programme service after the expiry
+of the copyright in the original broadcast or cable programme.
+(3)
+Reference in subsection (2) of this section to a repeat broadcast or a repeat
+programme means one which is a repeat of a broadcast previously made, or as the case
+may be, of a cable programme previously included in a cable programme service.

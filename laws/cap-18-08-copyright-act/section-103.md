@@ -1,0 +1,13 @@
+103.  Licences for reprographic copying.
+Where a reference or application is made to the High Court under this Part relating
+to the licensing of reprographic copying of published literary, dramatic, musical or artistic
+
+works, or the typographical arrangement of published editions, the Court shall have regard
+to
+(a)
+the extent to which published editions of the works in question are
+otherwise available;
+(b)
+(c)
+the proportion of the work to be copied; and
+the nature of the use to which the copies are likely to be put.
