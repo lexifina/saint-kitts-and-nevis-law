@@ -1,0 +1,5 @@
+Interest on advances prohibited.
+16.
+No employer shall make any deductions by way of discount, interest or any
+similar charge on account of any advance of wages made to any worker in
+anticipation of the regular period of payment of such wages.
