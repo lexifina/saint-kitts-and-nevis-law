@@ -1,0 +1,49 @@
+11.
+Power to make regulations for preventing misuse of controlled drugs.
+(1)
+Subject to the provisions of this Act, the Minister may by regulations, make
+such provisions as appear to him or her necessary or expedient for preventing the misuse
+of preventing controlled drugs.
+(2)
+Without prejudice to the generality of subsection (1), regulations under this
+section may, in particular, make provision
+(a)
+for requiring precautions to be taken for the safe custody of
+controlled drugs;
+
+(b)
+for imposing requirements as to the documentation of transactions
+involving controlled drugs, and for requiring copies of documents
+relating to such transactions to be furnished to the prescribed
+authority;
+(c)
+for requiring the keeping of records and the furnishing of information
+with respect to controlled drugs in such circumstances and in such
+manner as may be prescribed;
+(d)
+for the inspection of any precautions taken or records kept in
+pursuance of regulations under this section;
+(e)
+as to the packaging and labelling of controlled drugs;
+(f)
+for regulating the transportation of controlled drugs and the methods
+used for destroying or otherwise disposing of such drugs when no
+longer required;
+(g)
+for regulating the issue of prescriptions containing controlled drugs
+and the supply of controlled drugs on prescriptions, and for requiring
+persons issuing or dispensing prescriptions containing such drugs to
+furnish to the prescribed authority such information relating to those
+prescriptions as may be prescribed;
+(h)
+for requiring any doctor who attends to any person whom he or she
+considers, or has reasonable grounds to suspect, is addicted (within
+the meaning of the regulations) to controlled drugs of any description
+to furnish to the prescribed authority such particulars with respect to
+such person as may be prescribed;
+(i)
+for prohibiting any doctor from administering, supplying and
+authorising the administration and supply to persons so addicted, and
+from prescribing for such persons such controlled drugs as may be
+prescribed, except under and in accordance with the terms of a
+licence issued by the Minister in pursuance of the regulations.

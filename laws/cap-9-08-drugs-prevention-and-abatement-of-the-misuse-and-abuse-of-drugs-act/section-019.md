@@ -1,0 +1,4 @@
+19.
+Attempts, etc., to commit offences.
+It is an offence for a person to attempt to commit an offence under any other
+provision of this Act or to incite or attempt to incite another to commit such an offence.
