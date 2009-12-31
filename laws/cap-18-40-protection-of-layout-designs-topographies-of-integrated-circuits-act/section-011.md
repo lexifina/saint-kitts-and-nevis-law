@@ -1,0 +1,5 @@
+11.
+Where application is not in English.
+Any application filed under this Act shall, if not in English, be accompanied by a
+translation thereof in English, verified by a translator that the translation is, to the best of
+his knowledge, complete and faithful.

@@ -1,0 +1,11 @@
+15.
+Changes in ownership.
+(1) Any change in the ownership of a protected layout­design shall be
+(a)
+in writing and addressed to the Registrar;
+(b)
+recorded in the Register by the Registrar; and
+(c)
+published by the Registrar in the Gazette.
+(2) A change referred to in subsection (1) shall have no effect against third parties
+unless it has been recorded.

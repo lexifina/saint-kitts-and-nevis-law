@@ -1,0 +1,4 @@
+28.
+Regulations.
+The Minister may make regulations providing for any matter which is to be
+prescribed under this Act, and for giving effect to the purposes of this Act.
