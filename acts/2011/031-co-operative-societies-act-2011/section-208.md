@@ -1,0 +1,27 @@
+208.
+Credit unions and trusts.
+(1) A credit union is not bound to see to the execution of any trust, whether
+express, implied or constructive, to which any deposit or share is subject.
+(2) Where any deposit or share is subject to a trust of which the credit union
+has notice, the receipt or order
+(a) of the trustee in whose name the deposit or share stands; or
+(b) if the deposit or share stands in the names of two or more trustees,
+all those trustees or any of them who, under the document creating
+the trust, may be entitled to receive the deposit or share,
+is, notwithstanding any trust to which the depositor share is subject, a sufficient discharge
+to the credit union for the payment of any money payable in respect of the deposit or share,
+and the credit union is not bound to see to the application of any money paid on the receipt
+or order.
+(3) Notwithstanding any neglect or omission on the part of a credit union
+to enter a proper description in its books, an executor, an administrator, a guardian, a
+committee or a trustee who is entered on the books of the credit union as a member, or
+who is described as representing a named estate, trust or trust beneficiary in such capacity
+shall not be personally liable to the credit union with respect to the share that he or she
+represents.
+(4) The estate or trust beneficiary represented by a person described in
+subsection (3) continues to be liable to the credit union in the same manner and to the
+same extent as if the testator, minor, ward, person of unsound mind, beneficial trust or
+their trust beneficiary were entered on the records of the credit union as the holder of
+the shares.
+Division II
+Consumers Co-operative societies and Housing Co-operative Societies

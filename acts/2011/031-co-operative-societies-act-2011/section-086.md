@@ -1,0 +1,13 @@
+86.
+Meetings by telephone, etc.
+(1) Subject to the bye-laws, where all the directors consent, a meeting of
+directors or of a committee may be held by means of
+(a) a telephone system; and
+(b) a communication facility other than a telephone,
+that permits all persons participating in the meeting to hear and speak to each other, and
+a person so participating is deemed to be present at that meeting.
+(2) Unless this Act, the Regulations or the bye-laws require a meeting, a
+resolution of the directors may be passed without a meeting where
+(a) all the directors consent to the resolution in writing; and
+(b) the consent is filed with the minutes of the proceedings of the
+directors.

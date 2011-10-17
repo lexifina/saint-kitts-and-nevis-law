@@ -1,0 +1,8 @@
+92.
+Declaration by directors and officers.
+A co-operative society may by resolution passed by a majority of the members
+at an annual or special meeting require all directors and officers to sign annually or at any
+other time that may be specified in the resolution a declaration relating to
+(a) faithful performance of duties;
+(b) secrecy of transactions with members; and
+(c) faithful and loyal support of the co-operative society.

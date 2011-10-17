@@ -1,0 +1,3 @@
+1.
+Short title.
+This Act may be cited as the Co-operative Societies Act, 2011.
