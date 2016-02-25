@@ -1,0 +1,34 @@
+132.
+Decision to proceed administratively.
+(1) The Director may, with the written consent of the Director of Public Prosecutions,
+proceed administratively against any person who has or may have committed an offence
+under this Act, if that person consents in writing to the Director proceeding administratively.
+(2) The Director shall promptly notify the person charged that he or she may, within
+7 working days of receiving such notification, either consent to or refuse summary
+administrative proceedings.
+(3) Where the person charged consents to summary administrative proceedings, the
+person shall notify the Director in writing that he or she -
+(a) admits to having committed the offence that he or she is charged with
+committing; and
+
+(b) consents to the charge being dealt with by summary administrative
+proceedings.
+(4) Upon notifying the Director of his or her consent to summary administrative
+proceedings under subsection (3), the person charged shall -
+(a) be deemed to have consented to any seizure which took place in accordance
+with this Act in relation to the offence that is subject to the summary
+administrative proceedings, and to have waived any right to a probable
+cause hearing; and
+(b) not engage in fishing or any related activity in the fisheries waters until an
+administrative penalty assessed under section  133 (1) has been paid in full.
+(5) Upon receiving the notification given under subsection (3), the Director –
+(a) shall notify the Director of Public Prosecutions that the matter is being dealt
+with in accordance with this Part; and
+(b) may consult the Attorney-General on the handling of the matter under this
+Part.
+(6) On receipt of a notification under subsection (5), the Director of Public
+Prosecutions may refrain from prosecuting the person charged with an offence under this
+Act while the matter is being dealt with under this Part, unless in his or her opinion there is
+a public interest in proceeding with the prosecution.
+(7) Where the person fails to respond to the Director’s written notice within 7 working
+days, the Director shall refer the matter to the Director of Public Prosecutions.
