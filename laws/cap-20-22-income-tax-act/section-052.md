@@ -1,0 +1,6 @@
+Manager of corporate bodies of persons.
+52.
+The manager or other principal officer of every corporate body of persons or
+society shall be answerable for doing all such acts, matters and things as are required
+to be done by virtue of this Act for the assessment of such body or society and for the
+payment of the tax.
