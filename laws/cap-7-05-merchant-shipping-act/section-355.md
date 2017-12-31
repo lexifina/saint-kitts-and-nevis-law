@@ -1,0 +1,8 @@
+Subrogation.
+355. (1) In respect of any sum paid by the Fund as compensation for pollution
+damage, the Fund shall acquire by subrogation any rights in respect of the damage
+which the recipient has, or, but for the payment would have, against any other person.
+
+(2) In respect of any sum paid by a public authority in Saint Christopher and
+Nevis as compensation for pollution damage, that authority shall acquire by
+subrogation any rights which the recipient has against the Fund under this Chapter.

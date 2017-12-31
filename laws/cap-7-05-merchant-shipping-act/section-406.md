@@ -1,0 +1,14 @@
+Loss of life or personal injuries joint and several liability.
+406. (1) Where loss of life or personal injuries are suffered by any person on board
+a ship owing to the fault of that ship and of any other ship or ships, the liability of the
+owners of the ships shall be joint and several.
+
+(2) Subsection (3) of section 405 applies to this section.
+
+(3) Nothing in this section shall be construed as depriving any person of any
+right of defence on which, apart from this section, he or she might have relied in an
+action brought against him or her by the person injured, or any person or persons
+entitled to sue in respect of such loss of life, or shall affect the right of any person to
+limit his or her liability in the manner provided by law.
+
+(4) Subsection (7) of section 405 applies for the interpretation of this section.

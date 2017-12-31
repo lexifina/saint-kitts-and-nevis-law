@@ -1,0 +1,5 @@
+Counterclaims.
+392. Where a person entitled to limitation of liability under this Chapter has a claim
+against the claimant arising out of the same occurrence, their respective claims shall
+be set off against each other and the provisions of this Chapter shall only apply to the
+balance, if any.
