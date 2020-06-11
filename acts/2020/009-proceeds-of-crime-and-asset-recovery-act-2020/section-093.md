@@ -1,0 +1,19 @@
+93. Associated and joint property.
+(1) Sections 94 and 95 apply if the Court makes a recovery order in respect of any
+recoverable property, and—
+(a) if—
+(i)
+the property to which the proceedings relate includes property which is
+associated with the recoverable property and is specified or described in
+the application; and
+(ii) if the associated property is not the respondent’s property, the claim form
+or application has been served on the person whose property it is or the
+Court has dispensed with service; or
+(b) if—
+(i)
+the recoverable property belongs to joint owners; and
+(ii) one of the owners is an excepted joint owner.
+(2) An excepted joint owner is a person who obtained the property in circumstances in
+which it would not be recoverable as against him or her and references to the excepted joint
+owner’s share of the recoverable property are to so much of the recoverable property as
+would have been his or hers if the joint ownership had been severed.
