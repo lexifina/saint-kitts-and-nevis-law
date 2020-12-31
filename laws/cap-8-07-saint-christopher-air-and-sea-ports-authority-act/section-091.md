@@ -1,0 +1,5 @@
+Proof.
+91.
+In any proceedings for any offence, the averment that such offence was
+committed within the limits of the port shall be sufficient without proof of such
+limits, unless the contrary is proved.
