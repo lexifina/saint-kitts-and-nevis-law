@@ -1,0 +1,4 @@
+11. Have you been found guilty of conducting any unauthorized regulated activity or been
+investigated for possible conduct of unauthorized regulated entity?
+________________________________________________________________________
+________________________________________________________________________
