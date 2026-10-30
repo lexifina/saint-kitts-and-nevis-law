@@ -1,0 +1,33 @@
+{
+ "country": "KN",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "The Constitution of Saint Christopher and Nevis (schedule 1 to SI 1983/881), as made",
+   "url": "https://www.legislation.gov.uk/uksi/1983/881/made",
+   "versions": [
+    {
+     "from": "1983-09-19",
+     "units": 125,
+     "source_url": "http://www.legislation.gov.uk/uksi/1983/881/pdfs/uksi_19830881_en.pdf",
+     "sha256": "9d386007f264ea15def647ec14edd761fd645e32be5bb8555a49416196562083"
+    }
+   ]
+  },
+  {
+   "slug": "constitution-order",
+   "short": "SI 1983/881",
+   "title": "The Saint Christopher and Nevis Constitution Order 1983: sections 1 to 4 and the transitional provisions in schedule 2",
+   "url": "https://www.legislation.gov.uk/uksi/1983/881/made",
+   "versions": [
+    {
+     "from": "1983-06-23",
+     "units": 17,
+     "source_url": "http://www.legislation.gov.uk/uksi/1983/881/pdfs/uksi_19830881_en.pdf",
+     "sha256": "9d386007f264ea15def647ec14edd761fd645e32be5bb8555a49416196562083"
+    }
+   ]
+  }
+ ]
+}
