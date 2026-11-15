@@ -1,34 +1,86 @@
 # Saint Kitts and Nevis: law history in git
 
+
+The law of Saint Kitts and Nevis as a git history: one file per section, one commit per version on the day it took effect, and the law that made each change as the commit's author. `git blame` names who is credited with every line; `git log` lists every change to a section; picking a date gives the text in force that day. Each act here has one version so far, as made in 1983.
+
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Saint Kitts and Nevis' national law, which global-law reads at `saint-kitts-and-nevis/national/acts/`.
 
-The law of Saint Kitts and Nevis as a git history: one file per provision, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change; picking a date gives the text in force that day.
+**What is in it now:** two acts, each in one version, the text as made, with 142 provisions: the Constitution of Saint Christopher and Nevis (schedule 1 to the Saint Christopher and Nevis Constitution Order 1983, SI 1983/881), sections 1 to 120 and schedules 1 to 5; and the Order itself, sections 1 to 4 and the 13 paragraphs of its schedule 2 (transitional provisions). No amendment made since 1983 is applied, so this is not the current Constitution. [`REPRODUCE.md`](REPRODUCE.md) lists each act with its version and the choices made for it.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law).
+Each act is a folder with one file per section or schedule and a `README.md` listing its provisions: `constitution/sec-012.md` is section 12 of the Constitution (freedom of expression), `constitution-order/sched2-para-01.md` paragraph 1 of the Order's schedule 2.
 
-**What is in it now (a first build, not complete)**
+The text is in English, as the Order was printed. It was read from an image-only scan by optical character recognition (OCR) and has not been proofread in full: where the wording matters, read the [scan](https://www.legislation.gov.uk/uksi/1983/881/made).
 
-| Folder | Act | Versions | History |
-| --- | --- | ---: | --- |
-| `constitution/` | The Constitution of Saint Christopher and Nevis (schedule 1 to SI 1983/881), as made: sections 1 to 120 and schedules 1 to 5 | 1 | As made, in effect 19 September 1983. Later amendments are not applied. |
-| `constitution-order/` | The Saint Christopher and Nevis Constitution Order 1983: sections 1 to 4 and the transitional provisions (schedule 2 to the Order) | 1 | As made, in operation 23 June 1983 |
+## Questions as git commands
 
-**Language.** English, the official language. The scan is of the English text as printed by Her Majesty's Stationery Office.
+| Question | Command |
+| --- | --- |
+| Every change to section 12 of the Constitution | `git log -p --word-diff -- constitution/sec-012.md` |
+| Who is credited with each line of section 12? | `git blame constitution/sec-012.md` |
+| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitution ':!*/README.md'` |
+| Section 12 as it stood on 1 January 1984 | `python tools/on.py 1984-01-01 constitution 12` |
 
-**Source.** [legislation.gov.uk](https://www.legislation.gov.uk/uksi/1983/881/made), The National Archives: *The Saint Christopher and Nevis Constitution Order 1983* (SI 1983/881), as made. The Constitution is schedule 1 to the Order. Retrieved 30 October 2026. **The text was recovered by optical character recognition (OCR).** legislation.gov.uk holds this Order only as an image-only scan (122 pages, no text layer), so the words in this repository were read from the scan with Tesseract 5.4 (English), then checked: every word against a dictionary, and a sample of pages against the scan. A few misreadings were corrected by hand (listed in `REPRODUCE.md`, under decisions), but a full proofread has not been done. Where this text matters, read the scan at the source link above.
+**Outside git**, we also host this record publicly, for free:
+
+- **[Ask Claude about the law of Saint Kitts and Nevis](https://global-law.lexifina.com/v1/try_claude?country=saint-kitts-and-nevis)**: opens Claude with a first question ready.
+- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=saint-kitts-and-nevis)**: the same question in ChatGPT.
+- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=freedom+of+expression&jurisdictions=saint-kitts-and-nevis)**: a search of the law of Saint Kitts and Nevis for "freedom of expression", returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+
+Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in English.
+
+**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+
+```sh
+git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
+python3 tools/countries.py add saint-kitts-and-nevis/national/acts
+python3 tools/law.py show 2026-01-01 saint-kitts-and-nevis/national/acts/constitution/sec-012.md
+```
+
+Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
 ## Dates
 
-The Constitution is dated 19 September 1983, the day it came into effect (section 3 of the Order). The Order's own sections and its schedule 2 are dated 23 June 1983, when the Order came into operation (section 1(2)). Each act has a single version because the source is the Order as made: this is not the current Constitution, and later amendments (including those made by Saint Kitts and Nevis since independence) are not in this repository.
+Each commit is dated at noon, America/St_Kitts, on the day the version took effect, and carries it in its `In-force:` trailer:
+
+- the Constitution is dated 19 September 1983, the day it came into effect (section 3 of the Order);
+- the Order's sections and its schedule 2 are dated 23 June 1983, the day the Order came into operation (section 1(2));
+- with no later version in the record, any later date gives the 1983 text.
+
+Both versions are credited to the Order that made them, `SI 1983/881` (with an address that cannot exist, `si-1983-881@nationalarchives.invalid`); the committer is Lexifina.
 
 ## How it is checked
 
-Every version is read back from git on the day it took effect and on the day before (`tools/check_repo.py`) and must match `corpus.json`; results are in `REPRODUCE.md`.
+- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before and compares it with the corpus the history was built from (its hash is in `data/corpus.sha256`): 2 versions of 2 acts, 0 mismatches.
+- Every commit's trailers parse; there are no merge commits, no dates that go backwards and none in the future.
+- The OCR (Tesseract 5.4, mean word confidence 95.9 percent) was checked word by word against a dictionary and on a sample of pages against the scan; the misreadings found were corrected by hand, as [`REPRODUCE.md`](REPRODUCE.md) describes.
 
-## What "author" means
+## What it does not show
 
-The author of a commit is the law that made the change, with an e-mail address that cannot exist (`<law key>@legislation.gov.uk.invalid`). Both acts are credited to SI 1983/881. The committer is always Lexifina.
+- **The current Constitution.** No amendment made since 1983 is in the record.
+- **The rest of the law.** No other act, no subsidiary legislation and no case law. The Attorney General's Chambers (lawcommission.gov.kn) publishes the laws of the Federation under terms that forbid reuse, so nothing is taken from it.
+- **Parts of the Order.** The Preamble, schedule 6 to the Constitution (provisions applied with modifications to the Nevis Island Assembly) and the explanatory note are left out.
+- **Headings.** The marginal notes (section headings), which the OCR could not read reliably, and the chapter and part headings are not kept.
+- **Exact wording.** The text may still hold OCR misreadings (section 12 opens "12.1)" where section 1 opens "1.—(1)").
 
-## Limits
+## Sources
 
-Not complete and not current. Missing: every amendment since 1983; the Preamble; schedule 6 to the Constitution (provisions applied with modifications to the Nevis Island Assembly); the explanatory note; the marginal notes (section headings), which the OCR could not read reliably; and the chapter and part headings. The text is OCR output and may contain misreadings. The Government of Saint Kitts and Nevis (Attorney General's Chambers, lawcommission.gov.kn) publishes the laws of the Federation under terms that forbid reuse, so nothing is taken from it.
+| Source | Kind | Past versions | Notes |
+| --- | --- | --- | --- |
+| [legislation.gov.uk](https://www.legislation.gov.uk/uksi/1983/881/made) (The National Archives) | The Saint Christopher and Nevis Constitution Order 1983 (SI 1983/881), as made | no, the Order as made only | An image-only scan (122 pages); the text was read from it by OCR |
+
+## Licence
+
+See [`LICENSE`](LICENSE). The text is public sector information from legislation.gov.uk, licensed under the Open Government Licence v3.0; Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are dedicated to the public domain under CC0 1.0.
+
+No AI model wrote or translated legal text, and no model runs when the history is built; an AI model wrote the scripts and made the hand corrections of OCR misreadings that [`REPRODUCE.md`](REPRODUCE.md) describes.
+
+## More
+
+From [lexifina/global-law](https://github.com/lexifina/global-law):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
+- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
