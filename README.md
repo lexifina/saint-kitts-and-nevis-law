@@ -58,6 +58,7 @@ Both versions are credited to the Order that made them, `SI 1983/881` (with an a
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before and compares it with the corpus the history was built from (its hash is in `data/corpus.sha256`): 2 versions of 2 acts, 0 mismatches.
 - Every commit's trailers parse; there are no merge commits, no dates that go backwards and none in the future.
 - The OCR (Tesseract 5.4, mean word confidence 95.9 percent) was checked word by word against a dictionary and on a sample of pages against the scan; the misreadings found were corrected by hand, as [`REPRODUCE.md`](REPRODUCE.md) describes.
+- [vulnerabilities/](vulnerabilities/): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -78,6 +79,10 @@ Both versions are credited to the Order that made them, `SI 1983/881` (with an a
 See [`LICENSE`](LICENSE). The text is public sector information from legislation.gov.uk, licensed under the Open Government Licence v3.0; Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are dedicated to the public domain under CC0 1.0.
 
 No AI model wrote or translated legal text, and no model runs when the history is built; an AI model wrote the scripts and made the hand corrections of OCR misreadings that [`REPRODUCE.md`](REPRODUCE.md) describes.
+
+## Visualisations
+
+- [visualisations/](visualisations/): charts drawn from this repository. Not drawn yet.
 
 ## More
 
