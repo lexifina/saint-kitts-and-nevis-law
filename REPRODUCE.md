@@ -94,3 +94,8 @@ Electronic Transactions Act 2011, Geographical Indications Act 2007, Companies O
 Caribbean Supreme Court Civil Procedure Rules 2023); 7 Acts that come into force on a day fixed by an order not in the
 record; 11 with no number or no day found; the two regional treaties (OECS, CARICOM), whose copies give no in-force day;
 and the WIPO Lex copy of the 1983 Constitution, the same version already here (a FAOLEX transcription of it is among the 11).
+Correction (approved 2026-11-26): `tools/build-2026-11/const_correct.py` replaced the OCR text of the Constitution
+(`constitution/`, sections 1 to 120 and schedules 1 to 5) with the text layer of the WIPO Lex copy of the same 1983
+version, in one appended `Kind: correction` commit dated, like the commit it corrects (`Corrects: 9d58598`), 19 September
+1983. Same files and layout; marginal notes, chapter headings and the preamble are still left out. The Order's own
+sections and schedule 2 (`constitution-order/`) keep the OCR text.

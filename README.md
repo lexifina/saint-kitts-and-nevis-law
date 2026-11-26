@@ -13,7 +13,7 @@ Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git h
 
 Each act is a folder with one file per section or schedule and a `README.md` listing its provisions: `constitution/sec-012.md` is section 12 of the Constitution (freedom of expression), `constitution-order/sched2-para-01.md` paragraph 1 of the Order's schedule 2.
 
-The text is in English. The Constitution Order was read from an image-only scan by optical character recognition (OCR) and has not been proofread in full: where the wording matters, read the [scan](https://www.legislation.gov.uk/uksi/1983/881/made). Everything else is the PDF's own text layer; Lexifina ran no OCR on it (a few older chapters carry the publisher's own OCR layer, marked in each commit's `Text-source`).
+The text is in English. The Constitution (`constitution/`) is the text layer of the copy of the same 1983 version held by [WIPO Lex](https://www.wipo.int/wipolex/en/legislation/details/10191), which replaced the first build's OCR in a correction commit; the rest of the Order (`constitution-order/`) was read from an image-only scan by optical character recognition (OCR) and has not been proofread in full: where the wording matters, read the [scan](https://www.legislation.gov.uk/uksi/1983/881/made). Everything else is the PDF's own text layer; Lexifina ran no OCR on it (a few older chapters carry the publisher's own OCR layer, marked in each commit's `Text-source`).
 
 ## Questions as git commands
 
