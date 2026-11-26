@@ -1,10 +1,35 @@
-The legal text is the Saint Christopher and Nevis Constitution Order 1983 (SI 1983/881), as made, from legislation.gov.uk.
+Lexifina's own contributions (the arrangement of the history, the file layout, the commit messages, the tables and
+the tools) are dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
 
-  Contains public sector information licensed under the Open Government Licence v3.0.
+The legal text keeps its sources' own terms:
+
+- The Saint Christopher and Nevis Constitution Order 1983 (SI 1983/881), as made (constitution/, constitution-order/):
+  from legislation.gov.uk (The National Archives), read from the scanned PDF by OCR in the first build. Contains public
+  sector information licensed under the Open Government Licence v3.0:
   https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
   Source: https://www.legislation.gov.uk/uksi/1983/881/made (scanned PDF), retrieved 30 October 2026.
+  Changes made by Lexifina: the page images were converted to text by optical character recognition (Tesseract 5.4);
+  marginal notes, headers and chapter headings were left out; a few misread words were corrected by hand; and the text
+  was arranged as one Markdown file per provision and as git commits. Neither the National Archives nor the Government
+  of Saint Kitts and Nevis endorses this repository.
 
-Changes made by Lexifina: the page images were converted to text by optical character recognition (Tesseract 5.4); marginal notes, headers and chapter headings were left out; a few misread words were corrected by hand; and the text was arranged as one Markdown file per provision and as git commits. Neither the National Archives nor the Government of Saint Kitts and Nevis endorses this repository.
+- Revised Edition chapters, Acts and statutory rules and orders (laws/, nevis/, acts/, statutory-rules-and-orders/):
+  official texts of the Government of Saint Christopher and Nevis, taken from secondary copies of the Government's own
+  PDFs held by:
+  - FAOLEX, the legislative database of the Food and Agriculture Organization of the United Nations
+    (https://www.fao.org/faolex/; records listed through ECOLEX, https://www.ecolex.org/). FAO's terms allow
+    reproduction and dissemination of its material for non-commercial purposes with acknowledgement of FAO as the
+    source (https://www.fao.org/contact-us/terms/en/);
+  - WIPO Lex, the World Intellectual Property Organization's database of national laws
+    (https://www.wipo.int/wipolex/en/members/profile/KN), whose texts are supplied by member governments; WIPO's terms
+    of use (https://www.wipo.int/tools/en/disclaim.html) cover WIPO's own material, and the national laws are the
+    governments' official texts.
+  Each commit's Source and Source-page trailers name the PDF and the record it was taken from. A copy whose own pages
+  repeat the Government's "All rights reserved. No part of this publication may be reproduced ..." notice is not used
+  (see data/held.json).
 
-Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
-tools) are dedicated to the public domain under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+- Nothing is taken from the Attorney General's Chambers' own site (lawcommission.gov.kn), whose terms of use forbid
+  reproducing, republishing or reusing any part of it.
+
+Not legal advice and not an official publication; the official texts govern.

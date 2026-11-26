@@ -69,3 +69,28 @@ The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
 - Claude Code (Claude Sonnet 5.5) wrote the extraction code and made the hand corrections listed in decisions. The text itself was recovered by Tesseract OCR; no model wrote or summarised legal text.
+
+## Build of November 2026 (secondary copies)
+
+Added on top of the first build, as fast-import commits appended to `main` (no history rewritten). The Attorney
+General's Chambers' site (lawcommission.gov.kn) was not contacted. Tools in [`tools/build-2026-11/`](tools/build-2026-11/):
+
+1. `acquire.py` lists and fetches the PDFs: the ECOLEX legislation listing for Saint Kitts and Nevis (FAOLEX record ids;
+   ECOLEX's Crawl-delay of 30 seconds kept), the FAOLEX PDFs (faolex.fao.org), the WIPO Lex profile KN and its records
+   (each PDF link is signed and short-lived, so it is read from the record page just before the download), the OECS
+   Revised Treaty of Basseterre and the CARICOM Revised Treaty of Chaguaramas. One request in flight per host, 1 second
+   apart, backing off on 429 and 5xx and stopping a host on 403 or a challenge page.
+2. `sk_build.py <repo>` keeps only PDFs that have a text layer (no OCR is run), whose own pages do not repeat the
+   Government's "All rights reserved. No part of this publication may be reproduced ..." notice, whose layer is clean
+   enough to read (at least 90 percent ordinary words; 95 percent for publisher OCR over page scans) and that are legal
+   instruments, not policy papers. It splits each into sections and appends one commit per instrument, dated as
+   [STRUCTURE.md](STRUCTURE.md) says, with `Source-status: secondary copy (...)` on each. Instruments whose `Source:` is
+   already on `main` are skipped, so it can be re-run as more PDFs arrive.
+
+State at this build: 24 Revised Edition chapters (22 under `laws/`, 2 Nevis Ordinances under `nevis/laws/`), 4 Acts and
+3 statutory rules and orders. 49 texts are held back (`data/held.json`): 10 policy or planning papers; 10 page scans
+whose OCR layer is too noisy; 8 copies that repeat the no-reproduction notice (among them WIPO Lex's Customs Act 2014,
+Electronic Transactions Act 2011, Geographical Indications Act 2007, Companies Ordinance (Nevis) and the Eastern
+Caribbean Supreme Court Civil Procedure Rules 2023); 7 Acts that come into force on a day fixed by an order not in the
+record; 11 with no number or no day found; the two regional treaties (OECS, CARICOM), whose copies give no in-force day;
+and the WIPO Lex copy of the 1983 Constitution, the same version already here (a FAOLEX transcription of it is among the 11).
