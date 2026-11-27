@@ -1,5 +1,0 @@
-4.
-Has an application for your regulatory approval ever been refused? If yes, please provide
-details:
-________________________________________________________________________
-________________________________________________________________________

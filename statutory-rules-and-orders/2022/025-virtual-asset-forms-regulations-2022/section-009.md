@@ -1,5 +1,0 @@
-9.
-Have you ever been dismissed or requested to resign from any office or employment?
-If so, give particulars.
-________________________________________________________________________
-________________________________________________________________________

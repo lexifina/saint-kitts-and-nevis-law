@@ -1,3 +1,0 @@
-1.
-Short title.
-This Act may be cited as the Financial Intelligence Unit Act.

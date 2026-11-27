@@ -29,6 +29,17 @@ The legal text keeps its sources' own terms:
   repeat the Government's "All rights reserved. No part of this publication may be reproduced ..." notice is not used
   (see data/held.json).
 
+- Acts, statutory rules and orders and Revised Edition chapters taken from official copies published by other bodies
+  of the Federation and by regional bodies (added 27 November 2026): official texts of the Government of Saint
+  Christopher and Nevis, as published by
+  - the Financial Services Regulatory Commission's Law Library (https://www.fsrc.kn/law-library);
+  - the Nevis Island Administration (https://www.nia.gov.kn/) and the Government of Saint Kitts and Nevis
+    (https://www.gov.kn/).
+  None of these sites publishes terms of use restricting reuse of the laws it holds (their footers carry only a
+  general copyright line). Each commit's Source-status, Source and
+  Source-page trailers name the body, the PDF and the page it was listed on. Copies that repeat the "no part of this
+  publication may be reproduced" notice are not used here either.
+
 - Nothing is taken from the Attorney General's Chambers' own site (lawcommission.gov.kn), whose terms of use forbid
   reproducing, republishing or reusing any part of it.
 

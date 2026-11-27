@@ -1,2 +1,0 @@
-Switzerland
-6.

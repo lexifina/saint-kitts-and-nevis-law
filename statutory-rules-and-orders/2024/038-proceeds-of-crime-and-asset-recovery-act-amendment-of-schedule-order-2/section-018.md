@@ -1,1 +1,0 @@
-18. Building societies.

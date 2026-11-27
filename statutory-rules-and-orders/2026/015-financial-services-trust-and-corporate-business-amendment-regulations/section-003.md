@@ -1,7 +1,0 @@
-3.
-Have you ever been the subject of investigation/disciplinary procedures, censured,
-disciplined or publicly criticized by any professional body to which you belong or
-have belonged?  If so, give particulars:
-__________________________________________________________________________________________
-__________________________________________________________________________________________
-__________________________________________________________________________________________

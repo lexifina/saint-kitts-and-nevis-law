@@ -1,7 +1,0 @@
-2.
-Have you ever been required to give evidence in any trial or proceedings involving
-fraud, dishonesty or similar matters, other than as an expected witness?  If so, give
-particulars:
-__________________________________________________________________________________________
-__________________________________________________________________________________________
-__________________________________________________________________________________________

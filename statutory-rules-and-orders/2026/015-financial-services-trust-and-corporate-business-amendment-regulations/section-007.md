@@ -1,7 +1,0 @@
-7.
-In connection with the formation or management of any corporation, has a court adjudged
-you civilly or criminally liable for any fraud, misfeasance or other misconduct towards
-that corporation, or any member thereof?  If so, give particulars:
-__________________________________________________________________________________________
-__________________________________________________________________________________________
-__________________________________________________________________________________________

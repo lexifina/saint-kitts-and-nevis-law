@@ -1,7 +1,0 @@
-111.
-Property acquired before commencement date.
-For the purposes of determining whether property was recoverable at any time,
-including times before the commencement date, this Part is deemed to have been in force at
-that time and at any other relevant time.
-Division 8
-Recovery of cash in summary proceedings

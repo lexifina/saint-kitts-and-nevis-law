@@ -1,2 +1,0 @@
-47. Act to bind the Crown.
-This Act binds the Crown.

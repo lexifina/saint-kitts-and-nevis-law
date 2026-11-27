@@ -1,2 +1,0 @@
-Guernsey
-22.
